@@ -5,10 +5,14 @@
          <modelVersion>4.0.0</modelVersion>
          <packaging>jar</packaging>
          
+         
+         <build>
+            <finalName>NewJarName</finalName>
+         </build>
          <dependencies>
             <dependency>
                <groupId>org.apache.commons</groupId>
-               <artifactId>common-lang3</artifactId>
+               <artifactId>commons-lang3</artifactId>
                <version>3.8.1</version>
             </dependency>
          </dependencies>
